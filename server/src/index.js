@@ -12,7 +12,7 @@ app.use(cors());
 app.use("/auth", userRouter)
 app.use("/recipes",recipeRouter)
 
-mongoose.connect("YOUR MONGODB URL FOR CONNECTION",
+mongoose.connect("mongodb+srv://pvnkumarps:pavan@cluster0.thzbwzz.mongodb.net/",
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
